@@ -26,5 +26,16 @@ Already up to date.
 
 
 
+
 To delete master link from a WRONG folder(repository), use: rm -rf .git
  
+git commit -m "update_memo_file"
+On branch master
+Untracked files:
+        gitmemo.txt
+        tempfolder1/
+        xy1.txt
+
+nothing added to commit but untracked files present
+
+need to git add filenames.txt to add all files to the repository
