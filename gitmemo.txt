@@ -1,0 +1,30 @@
+1. open git bash
+2. use "ls -lr" to check which folder is this
+3. for me, I need to use go to the correct folder by:
+	cd ..
+	cd DFO-MPO/Work/gittest
+4. git init
+5. git add .
+6. git remote -v
+7. git remote add origin https://github.com/yi-xu/hello-world
+8. git remote -v
+9. git pull origin master
+** if fails with the error fatal: refusing to merge unrelated histories
+then use:
+	 git merge origin/master --allow-unrelated-histories
+go to vi mode: write some markers, press Esc, press :(colon), enter q!
+
+10. git pull origin master (again) until it comes out: 
+$ git pull origin master
+From https://github.com/yi-xu/hello-world
+ * branch            master     -> FETCH_HEAD
+Already up to date.
+
+11. ls -lr check files
+12. copy the changed stuff to the local master folder
+13. git push origin master
+
+
+
+To delete master link from a WRONG folder(repository), use: rm -rf .git
+ 
