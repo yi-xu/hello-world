@@ -24,10 +24,21 @@ Already up to date.
 12. copy the changed stuff to the local master folder
 13. git push origin master
 
+%%create new branch locally
+git branch localdev
+%%delete unused branch locally
+git branch -d localdev
+%%check all remote and local branches
+git branch -a
+%%delete unused branch remotely
+git push origin --delete readme-edits #readme-edits was the branch name under origin
 
 
 
-To delete master link from a WRONG folder(repository), use: rm -rf .git
+
+
+
+%%To delete master link from a WRONG folder(repository), use: rm -rf .git
  
 git commit -m "update_memo_file"
 On branch master
